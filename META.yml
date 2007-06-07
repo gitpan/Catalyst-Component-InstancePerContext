@@ -1,5 +1,5 @@
 --- 
-abstract: Directory watcher for POE
+abstract: Moose role to create only one instance of component per context
 author: Guillermo Roditi (groditi) <groditi@cpan.org>
 build_requires: 
   Test::More: 0
@@ -16,5 +16,6 @@ no_index:
     - t
 requires: 
   Catalyst: 0
+  Moose: 0
   Scalar::Util: 0
-version: 0.001000
+version: 0.001001

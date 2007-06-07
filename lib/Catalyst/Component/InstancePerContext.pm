@@ -5,7 +5,7 @@ use Scalar::Util qw/blessed refaddr/;
 use strict;
 use warnings;
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 requires 'build_per_context_instance';
 
